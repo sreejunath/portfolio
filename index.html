@@ -1,0 +1,155 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sreejunath</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+    <nav>
+      <div class="logo">
+        <a href="index.html">SREEJUNATH<span> B S</span></a>
+      </div>
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="menu-icon">&#9776;</label>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <div class="container">
+      <div class="left">
+        <h2>
+          Hi Guys Myself <br>
+          <span style="color: yellow;">SREEJUNATH</span>
+        </h2>
+      </div>
+      <div class="right">
+        <ul>
+          <li>
+            <a href="asset/cv.pdf" download="cv.pdf">
+              <button type="button" class="btn btn-outline-warning">Download CV</button>
+            </a>
+          </li>
+          <a href="https://wa.link/3hy0uk">
+            <li><button type="button" class="btn btn-outline-warning">Send Hi</button>
+          </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section id="profile">
+    <h2>PROFILE</h2>
+    <div class="container">
+      <div class="rig1">
+        <img src="asset/myimg.png" class="img-thumbnail" alt="myimg">
+        <p>
+          I'm <span style="color: yellow;">Sreejunath B S</span>, a final year BCA student hailing from the enchanting
+          town of Varkala in Kerala, India. My love for programming fuels my constant quest for improvement. Whether I'm
+          delving into web development, crafting mobile apps, or tackling algorithmic challenges, the world of code is
+          my playground. In parallel, <span style="color: rgb(0, 247, 230);">I'm captivated by entrepreneurship and
+            frequently dive into discussions about innovative business ideas and financial strategies.</span> When not
+          immersed in tech or startups, I seek solace in exploring Kerala's natural beauty, particularly Varkala's
+          pristine beaches. Let's connect and explore technology, entrepreneurship, and Kerala's tranquility together!
+        </p>
+        <a href="https://wa.link/4590iw">
+          <button type="button" class="btn btn-outline-warning">Know More About Me</button></a>
+      </div>
+    </div>
+  </section>
+  <section id="portfolio">
+    <h2 style="color: yellow;">Portfolio & Services</h2>
+    <div class="container-2">
+      <div class="card" style="width: 20rem;">
+        <img src="asset/music.png" class="card-img-top" alt="music">
+        <div class="card-body">
+          <h5 class="card-title">Music-Library</h5>
+          <a href="https://sreejunath.github.io/music-library">
+            <button type="button" class="btn btn-outline-warning">Visit</button></a>
+        </div>
+      </div>
+      <div class="card" style="width: 20rem;">
+        <img src="asset/personal.png" class="card-img-top" alt="portfolio website">
+        <div class="card-body">
+          <h5 class="card-title">Portfolio-webpage</h5>
+          <a href="https://sreejunath.github.io/sreejunath">
+            <button type="button" class="btn btn-outline-warning">Visit</button></a>
+        </div>
+      </div>
+      <div class="card" style="width: 20rem;">
+        <img src="asset/refurb.png" class="card-img-top" alt="refurb">
+        <div class="card-body">
+          <h5 class="card-title">The Refurb Store</h5>
+          <a href="asset/bgimg.87jpg">
+            <a href="https://sreejunath.github.io/refurb">
+              <button type="button" class="btn btn-outline-warning">Visit</button></a>
+        </div>
+      </div>
+    </div>
+    <h3 style="color: yellow;">Services</h3>
+    <div class="btm">
+
+      <div class="card" style="width: 20rem;">
+        <div class="card-body">
+          <h5 class="card-title">Web Development & Design</h5>
+          <a href="https://wa.link/rnd2fr">
+            <button type="button" class="btn btn-outline-warning">Order</button></a>
+        </div>
+      </div>
+      <div class="card" style="width: 20rem;">
+        <div class="card-body">
+          <h5 class="card-title">PC assembly and service</h5>
+          <a href="https://wa.link/cztfwz">
+            <button type="button" class="btn btn-outline-warning">Order</button></a>
+        </div>
+      </div>
+      <div class="card" style="width: 20rem;">
+        <div class="card-body">
+          <h5 class="card-title">Video Editing & Animation</h5>
+          <a href="https://wa.link/hiiy0l">
+            <button type="button" class="btn btn-outline-warning">Order</button></a>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+  <section id="contact">
+    <div class="contact">
+      <h2>Contact</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <button onclick="alert('This action cannot be done now.');" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+  <footer>
+    <div class="footer-content">
+    </div>
+    <p>&copy; 2023 Sreejunath. All rights reserved.</p>
+  </footer>
+  <script src="js/bootstrap.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
